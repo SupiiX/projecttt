@@ -7,4 +7,33 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Helpers\**" />
+    <Compile Remove="Logic\**" />
+    <Compile Remove="Models\**" />
+    <Compile Remove="Services\**" />
+    <Compile Remove="ViewModels\**" />
+    <EmbeddedResource Remove="Helpers\**" />
+    <EmbeddedResource Remove="Logic\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <EmbeddedResource Remove="ViewModels\**" />
+    <None Remove="Helpers\**" />
+    <None Remove="Logic\**" />
+    <None Remove="Models\**" />
+    <None Remove="Services\**" />
+    <None Remove="ViewModels\**" />
+    <Page Remove="Helpers\**" />
+    <Page Remove="Logic\**" />
+    <Page Remove="Models\**" />
+    <Page Remove="Services\**" />
+    <Page Remove="ViewModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+  </ItemGroup>
+
 </Project>
