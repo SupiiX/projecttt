@@ -13,5 +13,30 @@
             <ColumnDefinition Width="300*"/>
         </Grid.ColumnDefinitions>
 
+
+        <ListBox Grid.Column="0" x:Name="l_boxpeople">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Label Content="x"></Label>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+
+          
+            
+            
+        </ListBox>
+
+        <StackPanel Grid.Column="1">
+
+            <Label Margin="10" ContentStringFormat="Money: {0}$" Content="x"></Label>
+            <Button Margin="10" Content="Add to Army" Height="50"></Button>
+            <Button Margin="10" Content="Remove from Army" Height="50"></Button>
+            <Button Margin="10" Content="Edit trooper" Height="50"></Button>
+
+        </StackPanel>
+
+
     </Grid>
 </Window>
