@@ -22,10 +22,6 @@
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
-
-          
-            
-            
         </ListBox>
 
         <StackPanel Grid.Column="1">
@@ -36,6 +32,17 @@
             <Button Margin="10" Content="Edit trooper" Height="50"></Button>
 
         </StackPanel>
+
+        <ListBox Grid.Column="2" x:Name="l_boxsummarize">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Label Content="x"></Label>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
 
 
     </Grid>
